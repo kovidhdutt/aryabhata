@@ -1,7 +1,18 @@
+body {
+    background-color: #E3F2FD;
+}
 .dropdown:hover>.dropdown-menu {
     display: block;
   }
   
-  .dropdown>.dropdown-toggle:active {
+.dropdown>.dropdown-toggle:active {
       pointer-events: none;
   }
+.cards{
+    transition: all 0.2s ease;
+    cursor: pointer;
+  }
+.cards:hover{
+    box-shadow: 5px 6px 6px 2px #e9ecef;
+    transform: scale(1.1);
+}
